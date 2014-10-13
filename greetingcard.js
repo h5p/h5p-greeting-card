@@ -36,7 +36,7 @@ H5P.GreetingCard = (function ($) {
     // TODO - need to wait for image beeing loaded
     // For now using timer. Should wait for image is loaded...
     setTimeout(function () {
-      self.$.trigger('resize');
+      self.triggerH5PEvent('resize');
     }, 1000);
   };
 

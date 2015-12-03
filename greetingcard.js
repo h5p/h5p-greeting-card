@@ -26,13 +26,18 @@ H5P.GreetingCard = (function ($) {
     // Set class on container to identify it as a greeting card
     // container.  Allows for styling later.
     $container.addClass("h5p-greetingcard");
-    // Add image if provided.
-    if (this.options.image && this.options.image.path) {
-      $container.append('<img class="greeting-image" src="' + H5P.getPath(this.options.image.path, this.id) + '">');
-    }
-    // Add greeting text.
-    $container.append('<div class="greeting-text">' + this.options.greeting + '</div>');
-    
+
+    var data = {
+      hasImg: (this.options.image && this.options.image.path),
+      imgPath: H5P.getPath(this.options.image.path, this.id),
+      greeting: this.options.greeting
+    };
+
+    $.get(self.getLibraryFilePath('greetingcard.mustache'), function (template) {
+      var html = Mustache.render(template, data);
+      $container.html(html);
+    });
+
     // TODO - need to wait for image beeing loaded
     // For now using timer. Should wait for image is loaded...
     setTimeout(function () {

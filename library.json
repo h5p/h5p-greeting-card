@@ -8,14 +8,21 @@
   "author": "Joubel AS",
   "license": "MIT",
   "machineName": "H5P.GreetingCard",
-  "preloadedJs": [
-    {
-      "path": "greetingcard.js"
-    }
-  ],
+"preloadedJs": [
+  {
+    "path": "greetingcard.js"
+  }
+],
   "preloadedCss": [
     {
       "path": "greetingcard.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "MustacheJS",
+      "majorVersion": 1,
+      "minorVersion": 0
     }
   ]
 }

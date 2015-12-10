@@ -1,9 +1,9 @@
 {
-  "title": "Greeting card",
+  "title": "Greeting Card",
   "description": "Displays a greeting card",
   "majorVersion": 1,
   "minorVersion": 0,
-  "patchVersion": 3,
+  "patchVersion": 4,
   "runnable": 1,
   "author": "Joubel AS",
   "license": "MIT",

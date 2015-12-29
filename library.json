@@ -17,5 +17,12 @@
     {
       "path": "greetingcard.css"
     }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "ReactJS",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
   ]
 }

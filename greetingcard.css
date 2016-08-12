@@ -17,3 +17,8 @@
   line-height: 24px;
   text-align: center;
 }
+
+/* Task buttons override */
+.h5p-greetingcard .h5p-joubelui-button {
+  background-color: #000000;
+}

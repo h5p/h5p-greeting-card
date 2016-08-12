@@ -13,6 +13,16 @@ H5P.GreetingCard = (function ($) {
     }, options);
     // Keep provided id.
     this.id = id;
+    
+if (this.options.task) {
+  // Initialize task
+  this.task = H5P.newRunnable(this.options.task, this.id);
+
+  // Trigger resize events on the task:
+  this.on('resize', function (event) {
+    this.task.trigger('resize', event);
+  });
+}
   };
 
   /**
@@ -32,6 +42,17 @@ H5P.GreetingCard = (function ($) {
     }
     // Add greeting text.
     $container.append('<div class="greeting-text">' + this.options.greeting + '</div>');
+    
+    if (this.task) {
+      // Create a container for the task
+      var $taskHolder = $('<div>');
+
+      // Attach the task to the container
+      this.task.attach($taskHolder);
+
+      // Append the task container to our content types container
+      $container.append($taskHolder);
+    }
     
     // TODO - need to wait for image beeing loaded
     // For now using timer. Should wait for image is loaded...

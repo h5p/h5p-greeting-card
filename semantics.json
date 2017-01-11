@@ -3,6 +3,7 @@
     "label": "Greeting text",
     "name": "greeting",
     "type": "text",
+    "importance": "high",
     "default": "Hello world!",
     "description": "The greeting text displayed to the end user."
   },
@@ -10,6 +11,7 @@
     "label": "Card image",
     "name": "image",
     "type": "image",
+    "importance": "low",
     "optional": true,
     "description": "Image shown on card, optional. Without this the card will show just the text."
   }

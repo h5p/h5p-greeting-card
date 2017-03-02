@@ -5,7 +5,7 @@
   "minorVersion": 0,
   "patchVersion": 8,
   "runnable": 1,
-  "author": "Joubel AS",
+  "author": "Joubel",
   "license": "MIT",
   "machineName": "H5P.GreetingCard",
   "preloadedJs": [

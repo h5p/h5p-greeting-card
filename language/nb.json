@@ -1,13 +1,13 @@
 {
-  "semantics": [
+  "semantics":[
     {
-      "label": "Velkomsttekst",
-      "default": "Hallo verden!",
-      "description": "Velkomstteksten som vises til sluttbruker."
+      "label":"Velkomsttekst",
+      "default":"Hallo verden!",
+      "description":"Velkomstteksten som vises til sluttbruker."
     },
     {
-      "label": "Bilde til kort",
-      "description": "Bildet som vises på kortet. Valgfritt, uten bilde vises bare teksten."
+      "label":"Bilde til kort",
+      "description":"Bildet som vises på kortet. Valgfritt, uten bilde vises bare teksten."
     }
   ]
 }

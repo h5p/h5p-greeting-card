@@ -1,13 +1,13 @@
 {
   "semantics":[
     {
-      "label":"Greeting text",
-      "default":"Hello world!",
-      "description":"The greeting text displayed to the end user."
+      "label":"Testo di saluto",
+      "default":"Ciao mondo!",
+      "description":"Il testo di saluto visualizzato all'utente finale."
     },
     {
-      "label":"Card image",
-      "description":"Image shown on card, optional. Without this the card will show just the text."
+      "label":"Immagine della carta",
+      "description":"Immagine mostrata sulla carta, facoltativa. Senza di essa, la carta mostrerà solo il testo."
     }
   ]
 }

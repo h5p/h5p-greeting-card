@@ -1,13 +1,13 @@
 {
   "semantics":[
     {
-      "label":"Greeting text",
-      "default":"Hello world!",
-      "description":"The greeting text displayed to the end user."
+      "label":"Tebrik metni",
+      "default":"Merhaba dünya!",
+      "description":"Son kullanıcıya gösterilecek tebrik metni."
     },
     {
-      "label":"Card image",
-      "description":"Image shown on card, optional. Without this the card will show just the text."
+      "label":"Kart resmi",
+      "description":"Kartta resim gösterimi isteğe bağlıdır. Bunu kullanmazsanız tebrik kartı sadece metin olarak görünecektir."
     }
   ]
 }

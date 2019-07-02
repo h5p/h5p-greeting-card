@@ -1,13 +1,13 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Greeting text",
-      "default":"Hello world!",
-      "description":"The greeting text displayed to the end user."
+      "label": "Tervehdysteksti",
+      "default": "Hei maailma!",
+      "description": "Tämä tervehdysteksti näytetään opiskelijoille."
     },
     {
-      "label":"Card image",
-      "description":"Image shown on card, optional. Without this the card will show just the text."
+      "label": "Kortin kuva",
+      "description": "Kuva joka näytetään kortissa, ei pakollinen. Ilman kuvaa näytetään vain teksti"
     }
   ]
 }

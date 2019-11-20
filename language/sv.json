@@ -1,13 +1,13 @@
 {
   "semantics":[
     {
-      "label":"Greeting text",
+      "label":"Hälsningstext",
       "default":"Hello world!",
-      "description":"The greeting text displayed to the end user."
+      "description":"Hälsningstexten som visas för slutanvändaren."
     },
     {
-      "label":"Card image",
-      "description":"Image shown on card, optional. Without this the card will show just the text."
+      "label":"Kortbild",
+      "description":"Bild som visas på kort, valfri. Utan bild så kommer endast texten visas på kortet."
     }
   ]
 }

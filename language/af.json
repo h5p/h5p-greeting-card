@@ -1,13 +1,13 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Greeting text",
-      "default":"Hello world!",
-      "description":"The greeting text displayed to the end user."
+      "label": "Groeteteks",
+      "default": "Hallo wêreld!",
+      "description": "Die groeteboodskap word vertoon aan die eindgebruiker."
     },
     {
-      "label":"Card image",
-      "description":"Image shown on card, optional. Without this the card will show just the text."
+      "label": "Kaartbeeld",
+      "description": "Opsionele, prent op kaart vertoon. Sonder hierdie wys die kaart net die teks."
     }
   ]
 }

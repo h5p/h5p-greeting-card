@@ -1,13 +1,13 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Texto del saludo",
-      "default":"¡Hola mundo!",
-      "description":"El texto del saludo mostrado al usuario final."
+      "label": "Texto del saludo",
+      "default": "¡Hola mundo!",
+      "description": "El texto del saludo mostrado al usuario final."
     },
     {
-      "label":"Imagen de tarjeta",
-      "description":"Imagen mostrada en tarjeta, opcional. Sin esta la tarjeta solamente mostrará el texto."
+      "label": "Imagen de tarjeta",
+      "description": "Imagen mostrada en tarjeta, opcional. Sin esto, la tarjeta solamente mostrará el texto."
     }
   ]
 }

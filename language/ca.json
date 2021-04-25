@@ -1,13 +1,13 @@
 {
   "semantics": [
     {
-      "label": "Greeting text",
+      "label": "Text de salutació",
       "default": "Hola món!",
-      "description": "The greeting text displayed to the end user."
+      "description": "El text de salutació mostrat a l'usuari final."
     },
     {
-      "label": "Card image",
-      "description": "Image shown on card, optional. Without this the card will show just the text."
+      "label": "Imatge de la targeta",
+      "description": "Imatge mostrada en la targeta, opcional. Sense aquesta, la targeta mostrarà només el text."
     }
   ]
 }

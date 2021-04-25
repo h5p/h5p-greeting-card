@@ -1,13 +1,13 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Greeting text",
-      "default":"Hello world!",
-      "description":"The greeting text displayed to the end user."
+      "label": "תוכן ברכה",
+      "default": "שלום עולם!",
+      "description": "תוכן הברכה המוצגת למשתמש הקצה."
     },
     {
-      "label":"Card image",
-      "description":"Image shown on card, optional. Without this the card will show just the text."
+      "label": "תמונת כרטיס",
+      "description": "תמונה המוצגת על כרטיס, אופציונלי. בלי התמונה הכרטיס יציג רק מלל."
     }
   ]
 }

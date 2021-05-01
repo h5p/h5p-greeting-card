@@ -1,13 +1,13 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Greeting text",
-      "default":"Hello world!",
-      "description":"The greeting text displayed to the end user."
+      "label": "Text pozdravu",
+      "default": "Ahoj světe!",
+      "description": "Text pozdravu zobrazený uživateli."
     },
     {
-      "label":"Card image",
-      "description":"Image shown on card, optional. Without this the card will show just the text."
+      "label": "Obrázek karty",
+      "description": "Obrázek zobrazený na kartě je volitelný. Bez obrázku se na kartě zobrazí pouze text."
     }
   ]
 }

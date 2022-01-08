@@ -1,13 +1,13 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Texto de saudação",
-      "default":"Olá, mundo!",
-      "description":"O texto de saudação mostrado para o usuário final."
+      "label": "Texto de saudação",
+      "default": "Olá mundo!",
+      "description": "O texto de saudação mostrado ao utilizador final."
     },
     {
-      "label":"Imagem da carta",
-      "description":"Imagem mostrada na carta é opcional. Sem isso, a carta irá mostrar apenas o texto."
+      "label": "Imagem do cartão",
+      "description": "Imagem mostrada no cartão é opcional. Sem isso, o cartão irá mostrar apenas o texto."
     }
   ]
 }

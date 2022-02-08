@@ -1,0 +1,13 @@
+{
+  "semantics": [
+    {
+      "label": "Apsveikuma teksts",
+      "default": "Sveika pasaule!",
+      "description": "Apsveikuma teksts, kas tiek atspoguļots lietotājam."
+    },
+    {
+      "label": "Kartītes attēls",
+      "description": "Neobligāts attēls, kas tiks atspoguļots uz kartītes. Ja nav norādīts, tiks atspoguļots tikai teksts."
+    }
+  ]
+}

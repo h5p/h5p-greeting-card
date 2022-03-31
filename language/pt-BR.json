@@ -1,0 +1,13 @@
+{
+  "semantics": [
+    {
+      "label": "Texto de Felicitação",
+      "default": "Olá mundo!",
+      "description": "O texto de felicitação exibido para o usuário final."
+    },
+    {
+      "label": "Imagem do cartão",
+      "description": "Imagem mostrada no cartão, opcional. Sem isso, o cartão mostrará apenas o texto."
+    }
+  ]
+}

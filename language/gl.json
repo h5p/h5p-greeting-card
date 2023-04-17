@@ -1,0 +1,13 @@
+{
+  "semantics": [
+    {
+      "label": "Texto de saúdo",
+      "default": "Ola mundo!",
+      "description": "O texto de saúdo que se mostra ao usuario final."
+    },
+    {
+      "label": "Imaxe da tarxeta",
+      "description": "Imaxe mostrada na tarxeta, opcional. Sen isto, a tarxeta mostrará só o texto."
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Greeting text",
-      "default":"Hello world!",
-      "description":"The greeting text displayed to the end user."
+      "label": "Поздравни текст",
+      "default": "Здраво Свете!",
+      "description": "Текст поздрава који се приказује крајњем кориснику."
     },
     {
-      "label":"Card image",
-      "description":"Image shown on card, optional. Without this the card will show just the text."
+      "label": "Слика картице",
+      "description": "Слика приказана на картици, опционо. Без овога, картица ће приказати само текст."
     }
   ]
 }

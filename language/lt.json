@@ -1,0 +1,13 @@
+{
+  "semantics": [
+    {
+      "label": "Sveikinimo tekstas",
+      "default": "Sveikas pasauli!",
+      "description": "Pasisveikinimo tekstas, rodomas galutiniam naudotojui."
+    },
+    {
+      "label": "Kortelės paveikslėlis",
+      "description": "Paveikslėlis rodomas kortelėje, neprivaloma. Be šios kortelės bus rodomas tik tekstas."
+    }
+  ]
+}
